@@ -19,8 +19,8 @@ def divide (x, y):
 	
 choice = input("Enter choice(1/2/3/4: ")
 	
-elif choice == '1':
-        print(num1, "+", num2,"=", add(num1,num2))
+if choice == '1':
+        print(num1, "+", num2, "=", add(num1,num2))
 
 elif choice == '2':
         print(num1, "-", num2, "=", subtract(num1,num2))
@@ -31,31 +31,30 @@ elif choice == '3':
 elif choice == '4':
         print(num1, "/", num2, "=", divide(num1,num2))
 
-def user_input = "add":
+def user_input()
 		num1 = float(input("Please enter a number :"))
 		num2 = float(input("Please enter another number :"))
 		result1 = str(num1 + num2)
-		print ("The result is:" + result1)
+		print("The result is:" + result1)
 			
-def user_input = "subtract":
+def user_input()
 		num3 = float(input("Please enter a number :"))
 		num4 = float(input("Please enter another number :"))
 		result2 = str(num3 - num4)
-		print ("The result is:" + result2)
+		print("The result is:" + result2)
 		
-def user_input = "divide":
+def user_input():
 		num5 = float(input("Please enter a number :"))
 		num6 = float(input("Please enter another number :"))
 		result3 = str(num5 / num6)
-		print ("The result is:" + result3)
+		print("The result is:" + result3)
 	
-def user_input = "multiply":
+def user_input():
 		num7 = float(input("Please enter a number :"))
 		num8 = float(input("Please enter another number :"))
 		result4 = str(num3 * num4)
-		print ("The result is:" + result4)
-	else:
-		print ("Unknown input")
-	elif: 
-		
-        print('You have not typed a valid operator, please run the program again.')
+		print("The result is:" + result4)
+else:
+	print ("Unknown input")
+elif: 
+	print('You have not typed a valid operator, please run the program again.')
